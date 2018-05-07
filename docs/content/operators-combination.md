@@ -40,7 +40,7 @@ stream$.subscribe(data => console.log(data));
 函数签名如下：
 
 ```javascript
-Rx.Observable([ source_1,... sournce_n ])
+Rx.Observable.concat([ source_1,... sournce_n ])
 ```
 
 看看下面输出的数据，很容易可以想到数据是何时发出的：
